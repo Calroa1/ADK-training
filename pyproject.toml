@@ -1,0 +1,15 @@
+[project]
+name = "mi-agente"
+version = "0.1.0"
+description = "Mi agente modular"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk",
+    "litellm[proxy]>=1.106.6",
+    "mcp>=2.3.0",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
